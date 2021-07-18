@@ -15,6 +15,28 @@ full_contact:
         api_key:   xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-* rails db:create
-* rails db:migrate
-* rails s
+* Bundle install & yarn install
+```
+bundle install
+yarn install
+```
+
+* Create db
+```
+rails db:create
+```
+
+* Run migration
+```
+rails db:migrate
+```
+
+* Run delayed job adapter
+```
+rails jobs:work
+```
+
+* Run Rails server
+```
+rails s
+```
